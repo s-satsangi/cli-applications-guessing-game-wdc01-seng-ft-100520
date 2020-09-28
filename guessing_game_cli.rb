@@ -6,11 +6,12 @@ def run_guessing_game
   if user_guess === "exit" do
     puts "Goodbye!"
     return nil
-  else {
-    if (user_guess === secret_number) 
+  elsif (user_guess === secret_number) 
       puts "You guessed the correct number!"
-    else 
+  else 
       puts "Sorry! The computer guessed ${secret_number}"
-    end
-  }
+  end
+  
+  
+
 end
