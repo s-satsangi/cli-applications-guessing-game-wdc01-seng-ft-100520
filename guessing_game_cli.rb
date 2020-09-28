@@ -5,7 +5,6 @@ def run_guessing_game
   user_guess = gets.chomp
   if user_guess === "exit" do
     puts "Goodbye!"
-    return nil
   elsif (user_guess === secret_number) 
       puts "You guessed the correct number!"
   else 
