@@ -8,7 +8,9 @@ def run_guessing_game
     return nil
   } else {
     if (user_guess === secret_number) {
-      puts ""
+      puts "You guessed the correct number!"
+    } else {
+      puts 
     }
   }
 end
