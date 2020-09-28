@@ -8,7 +8,7 @@ def run_guessing_game
   elsif (user_guess === secret_number) 
       puts "You guessed the correct number!"
   else 
-      puts "Sorry! The computer guessed ${secret_number}"
+      puts "Sorry! The computer guessed #{secret_number}"
   end
   
   
