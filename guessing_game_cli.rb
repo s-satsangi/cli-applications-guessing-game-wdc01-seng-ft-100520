@@ -5,6 +5,7 @@ def run_guessing_game
   user_guess = gets.chomp.to_i
   case user_guess
   when secret_number
-    puts 
+    puts "You guessed the correct number!"
+  when !se
   end
 end
